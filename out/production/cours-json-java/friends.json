@@ -1,0 +1,165 @@
+{
+  "fname": "Sarai",
+  "lname": "Southwick",
+  "friends": [
+    {
+      "fname": "Dorian",
+      "lname": "Delorme",
+      "friends": [
+        {
+          "fname": "Ivy",
+          "lname": "Isakson",
+          "friends": [
+            {
+              "fname": "Delbert",
+              "lname": "Deem",
+              "friends": []
+            },
+            {
+              "fname": "Cherish",
+              "lname": "Castellanos",
+              "friends": []
+            }
+          ]
+        },
+        {
+          "fname": "Nydia",
+          "lname": "Nipp",
+          "friends": [
+            {
+              "fname": "Chau",
+              "lname": "Callihan",
+              "friends": [
+                {
+                  "fname": "Marcy",
+                  "lname": "Meader",
+                  "friends": []
+                }
+              ]
+            },
+            {
+              "fname": "Santana",
+              "lname": "Stalcup",
+              "friends": [
+                {
+                  "fname": "Sharon",
+                  "lname": "Steimle",
+                  "friends": []
+                },
+                {
+                  "fname": "Forest",
+                  "lname": "Felts",
+                  "friends": [
+                    {
+                      "fname": "Yuk",
+                      "lname": "Yuan",
+                      "friends": [
+                        {
+                          "fname": "Hannah",
+                          "lname": "Hedrick",
+                          "friends": [
+                            {
+                              "fname": "Maira",
+                              "lname": "Monson",
+                              "friends": []
+                            },
+                            {
+                              "fname": "Sina",
+                              "lname": "Switzer",
+                              "friends": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fname": "Leonel",
+      "lname": "Loffredo",
+      "friends": []
+    },
+    {
+      "fname": "Francesco",
+      "lname": "Frix",
+      "friends": [
+        {
+          "fname": "Mika",
+          "lname": "Martinek",
+          "friends": [
+            {
+              "fname": "Issac",
+              "lname": "Ingrassia",
+              "friends": []
+            },
+            {
+              "fname": "Dennise",
+              "lname": "Dingle",
+              "friends": [
+                {
+                  "fname": "Tomasa",
+                  "lname": "Thorson",
+                  "friends": []
+                }
+              ]
+            },
+            {
+              "fname": "Vella",
+              "lname": "Velez",
+              "friends": []
+            },
+            {
+              "fname": "Gigi",
+              "lname": "Grose",
+              "friends": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fname": "Alesia",
+      "lname": "Arney",
+      "friends": [
+        {
+          "fname": "Dan",
+          "lname": "Direnzo",
+          "friends": [
+            {
+              "fname": "Gustavo",
+              "lname": "Gilroy",
+              "friends": []
+            }
+          ]
+        },
+        {
+          "fname": "Larue",
+          "lname": "Liverman",
+          "friends": []
+        },
+        {
+          "fname": "Myles",
+          "lname": "Mckittrick",
+          "friends": [
+            {
+              "fname": "Odell",
+              "lname": "Orick",
+              "friends": []
+            },
+            {
+              "fname": "Karen",
+              "lname": "Kuyper",
+              "friends": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

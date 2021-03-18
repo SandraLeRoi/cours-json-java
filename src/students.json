@@ -1,0 +1,82 @@
+{
+  "name": "HOC",
+  "description": "Une super classe de dev",
+  "students": [
+    {
+      "fname":"Dorotha",
+      "lname":"Damron",
+      "moyenne": 7
+    },
+    {
+      "fname":"Harmony",
+      "lname":"Hyatt",
+      "moyenne": 12
+    },
+    {
+      "fname":"Beatriz",
+      "lname":"Bro",
+      "moyenne": 6
+    },
+    {
+      "fname":"Coleen",
+      "lname":"Carbaugh",
+      "moyenne": 1
+    },
+    {
+      "fname":"Laquanda",
+      "lname":"Lisby",
+      "moyenne": 7
+    },
+    {
+      "fname":"Hortense",
+      "lname":"Haddox",
+      "moyenne": 16
+    },
+    {
+      "fname":"Kasi",
+      "lname":"Kale",
+      "moyenne": 16
+    },
+    {
+      "fname":"Johnna",
+      "lname":"Jost",
+      "moyenne": 15
+    },
+    {
+      "fname":"Rosanna",
+      "lname":"Reaux",
+      "moyenne": 6
+    },
+    {
+      "fname":"Jamey",
+      "lname":"Jarrard",
+      "moyenne": 0
+    },
+    {
+      "fname":"Alexis",
+      "lname":"Amado",
+      "moyenne": 5
+    },
+    {
+      "fname":"Pauletta",
+      "lname":"Purser",
+      "moyenne": 17
+    },
+    {
+      "fname":"Davis",
+      "lname":"Daggett",
+      "moyenne": 18
+    },
+    {
+      "fname":"Caryl",
+      "lname":"Cloutier",
+      "moyenne": 14
+    },
+    {
+      "fname":"Trent",
+      "lname":"Tropea",
+      "moyenne": 9
+    }
+  ]
+}
+
