@@ -22,7 +22,7 @@ public class Exercice {
         System.out.println(listComptesAVerifier1);
         ajouterComptesAVerifier(text);
         System.out.println(listComptesAVerifier1);
-        pattern = Pattern.compile("d{5}");
+        pattern = Pattern.compile("[0-9]{5}$");
 
 
     }
