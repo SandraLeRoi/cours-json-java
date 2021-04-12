@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 public class Friends {
-    static ArrayList<String> list;
+    static ArrayList<String> names = new ArrayList<>();
     public static void main(String[] args) throws IOException {
         String data = Files.readString(Paths.get("src/friends.json"));
 //        System.out.println(JSONValue.parse(data));
@@ -26,6 +26,9 @@ public class Friends {
         // question 5
         //getAllRelation(sarai, null);
         getAllRelation2(sarai);
+
+        System.out.println(names);
+        System.out.println(getAllNames2(sarai));
 
     }
 
@@ -61,7 +64,7 @@ public class Friends {
     public static ArrayList<String> getAllNames(JSONObject person) {
         String fname = (String) person.get("fname");
         String lname = (String) person.get("lname");
-        System.out.println(fname+" "+lname);
+        names.add(fname+" "+lname);
         JSONArray friends = (JSONArray) person.get("friends");
         ArrayList<String> friendsFriendsNames = new ArrayList<>();
         for (Object friendObject: friends) {
@@ -106,5 +109,44 @@ public class Friends {
             JSONObject friend = (JSONObject) friendObject;
             getAllRelation2(friend, person);
         }
+    }
+
+    public static ArrayList<String> getAllNamesInArray(JSONObject person) {
+        String fname = (String) person.get("fname");
+        String lname = (String) person.get("lname");
+        names.add(fname+" "+lname);
+        JSONArray friends = (JSONArray) person.get("friends");
+        ArrayList<String> friendsFriendsNames = new ArrayList<>();
+        for (Object friendObject: friends) {
+            JSONObject friend = (JSONObject) friendObject;
+            getAllNames(friend);
+        }
+        return friendsFriendsNames;
+    }
+
+//    public static void getAllNames2(JSONObject person) {
+//        String fname = (String) person.get("fname");
+//        String lname = (String) person.get("lname");
+//        System.out.println(fname+ " "+ lname);
+//        JSONArray friends = (JSONArray) person.get("friends");
+//        ArrayList<String> friendsFriendsNames = new ArrayList<>();
+//        for (Object friendObject: friends) {
+//            JSONObject friend = (JSONObject) friendObject;
+//            getAllNames(friend);
+//        }
+//    }
+
+    public static ArrayList<String> getAllNames2(JSONObject person) {
+        ArrayList<String> allNames = new ArrayList<>();
+        String fname = (String) person.get("fname");
+        String lname = (String) person.get("lname");
+        allNames.add(fname+" "+lname);
+        JSONArray friends = (JSONArray) person.get("friends");
+        for (Object friendObject: friends) {
+            JSONObject friend = (JSONObject) friendObject;
+            ArrayList<String> friendsNames = getAllNames2(friend);
+            allNames.addAll(friendsNames);
+        }
+        return allNames;
     }
 }
